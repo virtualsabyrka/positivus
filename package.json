@@ -1,0 +1,25 @@
+{
+  "name": "positivus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass styles/main.scss styles/main.css --watch",
+    "build-css": "sass styles/main.scss styles/main.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtualsabyrka/positivus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/virtualsabyrka/positivus/issues"
+  },
+  "homepage": "https://github.com/virtualsabyrka/positivus#readme",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
