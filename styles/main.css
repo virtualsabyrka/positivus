@@ -539,4 +539,34 @@ h4, .h4 {
   }
 }
 
+.section {
+  padding-block: var(--section-padding-y);
+}
+.section--hidden-x {
+  overflow-x: hidden;
+}
+.section__header {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+@media (max-width: 767px) {
+  .section__header {
+    flex-direction: column;
+    row-gap: 30px;
+    text-align: center;
+  }
+}
+.section__header:not(:last-child) {
+  margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .section__header:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+.section__description {
+  max-width: 580px;
+}
+
 /*# sourceMappingURL=main.css.map */
